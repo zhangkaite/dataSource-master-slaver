@@ -13,7 +13,7 @@ package cn.javass.common.datasource;
 public class ReadWriteDataSourceDecision {
     
     public enum DataSourceType {
-        write, read;
+        write, read
     }
     
     

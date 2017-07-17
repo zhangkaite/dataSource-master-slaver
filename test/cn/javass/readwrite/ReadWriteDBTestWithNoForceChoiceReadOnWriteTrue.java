@@ -1,20 +1,15 @@
 package cn.javass.readwrite;
 
+import cn.javass.model.Address;
+import cn.javass.model.User;
+import cn.javass.service.UserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.annotation.NotTransactional;
-import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import org.springframework.test.context.transaction.TransactionConfiguration;
-import org.springframework.transaction.annotation.Transactional;
-
-import cn.javass.model.Address;
-import cn.javass.model.User;
-import cn.javass.service.UserService;
 
 /**
  * 测试forceChoiceReadOnWrite=true 场景
